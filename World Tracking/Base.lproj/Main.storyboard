@@ -32,11 +32,25 @@
                                     <action selector="add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1GD-nj-oxt"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uXu-JD-Vhx">
+                                <rect key="frame" x="275" y="567" width="80" height="80"/>
+                                <color key="backgroundColor" red="1" green="0.71687886504839038" blue="0.078446430938849399" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="D8p-lW-fKC"/>
+                                    <constraint firstAttribute="width" constant="80" id="PJr-0K-heC"/>
+                                </constraints>
+                                <state key="normal" title="Reset"/>
+                                <connections>
+                                    <action selector="reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3cX-qH-smh"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="uXu-JD-Vhx" secondAttribute="bottom" constant="20" id="5zN-1e-MJj"/>
                             <constraint firstItem="c47-hj-RQW" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="BPG-8h-Q6H"/>
                             <constraint firstItem="c47-hj-RQW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="NcT-gF-fay"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uXu-JD-Vhx" secondAttribute="trailing" constant="20" id="PXr-BV-gaf"/>
                             <constraint firstItem="6CT-hq-Grs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ZLP-BD-9cQ"/>
                             <constraint firstItem="c47-hj-RQW" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="eFU-cb-249"/>
                             <constraint firstItem="c47-hj-RQW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="j50-lf-Zi3"/>
